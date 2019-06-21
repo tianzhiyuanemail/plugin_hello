@@ -4,6 +4,7 @@
 Pod::Spec.new do |s|
   s.name             = 'plugin_hello'
   s.version          = '0.0.1'
+  # oc 依赖报错 解决方案
   s.swift_version    = '4'
   s.summary          = 'A new Flutter project.'
   s.description      = <<-DESC
